@@ -3,7 +3,27 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/NY-Files/Desktop/Java11Certification/src/main/java/Java11Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/RicksShiny/Guitar.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/RicksShiny/Inventory.java">
           <value>
             <set />
           </value>
