@@ -10,7 +10,11 @@ public class Inventory {
   public Inventory() {
     guitars = new LinkedList();
   }
+/*
+THIS DESIGNG IS TERRIBLE! THE INVENTORY AND GUITAR CLASS DEPEND ON EACH OTHER TOO MUCH, AND I CAN'T SEE
+HOW THIS IS AN ARCHITECTURE THAT YOU'D EVER BE ABLE TO BUILD UPON WE NEED SOME RESTRUCTURING
 
+ */
   void addGuitar(String serialNumber, double price, String builder,
                  String model, String type, String backWood, String topWood){
     Guitar guitar = new Guitar(serialNumber,price,builder,model,type,backWood,topWood);

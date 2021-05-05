@@ -1,6 +1,10 @@
 package RicksShiny;
 
 public class Guitar {
+  /*
+  LOOK AT ALL THOSE STRINGS
+  THAT'S TERRIBLE, CAN'T WE USE CONSTANTS OR OBJECTS INSTEAD ?
+   */
   private String serialNumber;
   private double price;
   private String builder;
