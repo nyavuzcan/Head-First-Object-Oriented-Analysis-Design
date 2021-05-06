@@ -5,3 +5,6 @@ GREAT SOFTWARE IN 3 EASY STEPS
 2- APPLY BASIC OO PRINCIPLES TO ADD FLEXIBILITY.(SOLID)
 
 3- STRIVE FOR A MAINTAINABLE, REUSABLE DESIGN (USE DESIGN PATTERNS- LOW COUPLING HIGH COHESION)
+
+! When need string comp, if values and types is limited we should use Enums which can be type safety.
+and avoid string case, spell problems
