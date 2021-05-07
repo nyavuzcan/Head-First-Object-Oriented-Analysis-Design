@@ -1,5 +1,6 @@
 package RicksShiny;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -38,7 +39,11 @@ public class Inventory {
   Case Sensitive error, Also Every string compration is a bad idea we can use constant or enum
 
    */
-  public Guitar search(Guitar searchGuitar) {
+  /*
+  Customer want to list of searched guitars
+   */
+  public List search(Guitar searchGuitar) {
+    List matchingGuitars = new ArrayList();
     for (Iterator i = guitars.iterator(); i.hasNext(); ) {
       Guitar guitar = (Guitar) i.next();
       //Ignore serial number since that's unique
@@ -57,8 +62,8 @@ public class Inventory {
         continue;
       if (searchGuitar.getTopWood() != guitar.getTopWood())
         continue;
-      return guitar;
+      matchingGuitars.add(guitar);
     }
-    return null;
+    return matchingGuitars;
   }
 }

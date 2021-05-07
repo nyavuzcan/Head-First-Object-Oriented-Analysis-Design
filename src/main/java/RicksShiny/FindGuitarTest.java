@@ -1,5 +1,8 @@
 package RicksShiny;
 
+import java.util.Iterator;
+import java.util.List;
+
 public class FindGuitarTest {
 
   public static void main(String[] args) {
@@ -12,14 +15,18 @@ public class FindGuitarTest {
     Guitar whatErinLikes = new Guitar("", 0, Builder.FENDER, "Stratocastor", Type.ELECTRIC,
         Wood.ALDER, Wood.ALDER);
 
-    Guitar guitar = inventory.search(whatErinLikes);
+    List matchingGuitars = inventory.search(whatErinLikes);
 
-    if (guitar != null) {
+    if (!matchingGuitars.isEmpty()){
+      for (Iterator i = matchingGuitars.iterator(); i.hasNext();){
+
+      Guitar guitar = (Guitar) i.next();
       System.out.println("Ering you might like this" +
           guitar.getBuilder() + " " + guitar.getModel() + " " +
           guitar.getType() + " guitar:\n   " + guitar.getBackWood() + " back and sides, \n" + guitar.getTopWood() + " top.\nYou can " +
           "have it for only $" + guitar.getPrice() + "!");
-    } else {
+    } }
+    else {
       System.out.println("Sorry, Erin, we have nothing for you.");
     }
 
