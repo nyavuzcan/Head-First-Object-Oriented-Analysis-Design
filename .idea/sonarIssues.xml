@@ -38,6 +38,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/RicksShiny/GuitarSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/RicksShiny/Inventory.java">
           <value>
             <set />
@@ -54,6 +59,46 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/RicksShiny/Wood.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringBootWebSocket/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringBootWebSocket/src/main/java/com/example/springbootwebsocket/WsMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringBootWebSocket/src/main/java/com/example/springbootwebsocket/config/WsConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringBootWebSocket/src/main/java/com/example/springbootwebsocket/controller/ChatController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringBootWebSocket/src/main/java/com/example/springbootwebsocket/entity/ProductEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringBootWebSocket/src/main/java/com/example/springbootwebsocket/repository/ProductRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringBootWebSocket/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringBootWebSocket/src/main/resources/tester.html">
           <value>
             <set />
           </value>

@@ -8,3 +8,12 @@ GREAT SOFTWARE IN 3 EASY STEPS
 
 ! When need string comp, if values and types is limited we should use Enums which can be type safety.
 and avoid string case, spell problems
+
+
+OOP
+
+1- Objects should do what their names indicate.
+
+2- Each object should represent a single concept. Single duty.
+
+3- Unused properties are a dead giveaway. (Null pass parameter.) We should use subset properties.

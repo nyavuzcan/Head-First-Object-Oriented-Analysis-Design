@@ -12,7 +12,9 @@ public class FindGuitarTest {
     initilaizeInventory(inventory);
 
     //Too many models so we cannot limit like types
-    Guitar whatErinLikes = new Guitar("", 0, Builder.FENDER, "Stratocastor", Type.ELECTRIC,
+    //Customer serialnumber and price null. This is unnecessary.
+    //Change Guitar to GuitarSpec
+    GuitarSpec whatErinLikes = new GuitarSpec( Builder.FENDER,  Type.ELECTRIC,"Stratocastor",
         Wood.ALDER, Wood.ALDER);
 
     List matchingGuitars = inventory.search(whatErinLikes);
@@ -21,9 +23,10 @@ public class FindGuitarTest {
       for (Iterator i = matchingGuitars.iterator(); i.hasNext();){
 
       Guitar guitar = (Guitar) i.next();
+      GuitarSpec guitarSpec = guitar.getGuitarSpec();
       System.out.println("Ering you might like this" +
-          guitar.getBuilder() + " " + guitar.getModel() + " " +
-          guitar.getType() + " guitar:\n   " + guitar.getBackWood() + " back and sides, \n" + guitar.getTopWood() + " top.\nYou can " +
+          guitarSpec.getBuilder() + " " + guitarSpec.getModel() + " " +
+          guitarSpec.getType() + " guitar:\n   " + guitarSpec.getBackWood() + " back and sides, \n" + guitarSpec.getTopWood() + " top.\nYou can " +
           "have it for only $" + guitar.getPrice() + "!");
     } }
     else {
@@ -33,10 +36,6 @@ public class FindGuitarTest {
   }
 
   private static void initilaizeInventory(Inventory inventory) {
-
-    Guitar guitarTwo = new Guitar("532434", 0, Builder.FENDER, "Stratocastor", Type.ELECTRIC,
-        Wood.ALDER, Wood.ALDER);
-
 
     inventory.addGuitar("123231", 0, Builder.FENDER, "Stratocastor", Type.ELECTRIC,
         Wood.ALDER, Wood.ALDER);
