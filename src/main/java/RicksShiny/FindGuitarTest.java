@@ -15,7 +15,7 @@ public class FindGuitarTest {
     //Customer serialnumber and price null. This is unnecessary.
     //Change Guitar to GuitarSpec
     GuitarSpec whatErinLikes = new GuitarSpec( Builder.FENDER,  Type.ELECTRIC,"Stratocastor",
-        Wood.ALDER, Wood.ALDER);
+        Wood.ALDER, Wood.ALDER,0);
 
     List matchingGuitars = inventory.search(whatErinLikes);
 
@@ -38,9 +38,9 @@ public class FindGuitarTest {
   private static void initilaizeInventory(Inventory inventory) {
 
     inventory.addGuitar("123231", 0, Builder.FENDER, "Stratocastor", Type.ELECTRIC,
-        Wood.ALDER, Wood.ALDER);
+        Wood.ALDER, Wood.ALDER,2);
 
     inventory.addGuitar("V95693", 1499.95, Builder.FENDER, "Stratocastor", Type.ELECTRIC,
-        Wood.ALDER, Wood.ALDER);
+        Wood.ALDER, Wood.ALDER,0);
   }
 }

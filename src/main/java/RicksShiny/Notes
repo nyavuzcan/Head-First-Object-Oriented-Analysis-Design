@@ -17,3 +17,12 @@ OOP
 2- Each object should represent a single concept. Single duty.
 
 3- Unused properties are a dead giveaway. (Null pass parameter.) We should use subset properties.
+
+DELEGATE COMPRASIONS TO GUITARSPEC :  Deleagtion is when an object needs to perform  a certain task, and instead of doing that task directly, it asks another
+object to handle task. Search() methon in Inventory to ask GuitarSpect to tell if two specs are
+equal instead of compaing the two GuitarSpec objects directly within the search method itself.
+Delegation makes your code more reusable.
+One of the most common examples of delegation in Java is the equals(). This means
+your objecs are more independent of each other(Two GuitarSpec). more loosely copled. So easy reused.
+
+Loosely copled: Object have specific job to do. Whic each do a single task really well.
