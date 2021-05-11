@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Head-First-Object-Oriented-Analysis&amp;Design" />
+        <module name="Head-First-Object-Oriented-AnalysisDesign" />
       </profile>
     </annotationProcessing>
   </component>
