@@ -1,5 +1,8 @@
 package DougsDogDoors;
-
+/*
+Customer doesnt want to open and close ; they want automatically close after open some seconds
+Also they want to some requirements for this app.
+ */
 public class DogDoor {
   private boolean open;
 
