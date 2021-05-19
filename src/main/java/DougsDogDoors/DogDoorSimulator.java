@@ -12,6 +12,15 @@ public class DogDoorSimulator {
  // Auto closing.
     System.out.println("\n Fido's all done...");
 
+    try{
+      Thread.sleep(10000);
+    }catch (InterruptedException e){
+      System.out.println(e);
+    }
+    System.out.println("... but he's stuck outside!");
+    System.out.println("\n Fido starts barking....");
+    System.out.println("... so Gina grabs the remote control.");
+    remote.pressButton();
     System.out.println("\nFido's back inside....");
 
   }
